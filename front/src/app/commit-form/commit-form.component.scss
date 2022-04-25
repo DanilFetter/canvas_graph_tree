@@ -1,0 +1,11 @@
+.form-wrap {
+  padding:15px;
+  border:1px solid gray;
+
+  .example-form{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction:column;
+  }
+}
