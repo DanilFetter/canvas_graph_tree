@@ -10,11 +10,13 @@ import {MatButtonModule} from '@angular/material/button';
 import { AppComponent } from './app.component';
 import { CommitFormComponent } from './commit-form/commit-form.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { ChartAreaComponent } from './chart-area/chart-area.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    CommitFormComponent
+    CommitFormComponent,
+    ChartAreaComponent
   ],
   imports: [
     BrowserModule,
